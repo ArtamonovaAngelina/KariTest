@@ -9,9 +9,13 @@ namespace KariTests
         public void AuthorizationTest()
         {
             PhoneData phone = new PhoneData("9656255446");
-            AuthHelpers auth = new AuthHelpers();
-            auth.Login(phone);
-            Wait(2000);
+            
+            app.Navigation.OpenHomePage();
+            app.Navigation.OpenLoginPage();
+            app.Login.Login(phone);
+            
+            System.Threading.Thread.Sleep(2000);
+            Console.WriteLine("Тест авторизации пройден!");
         }
     }
 }

@@ -1,36 +1,21 @@
 using NUnit.Framework;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using System;
 
 namespace KariTests
 {
     public class TestBase
     {
-        protected static IWebDriver? driver;
+        protected AppManager app;
 
         [SetUp]
-        public void SetUp()
+        public void SetupTest()
         {
-            if (driver == null)
-            {
-                var options = new ChromeOptions();
-                options.AddArgument("--start-maximized");
-                driver = new ChromeDriver(options);
-                driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
-            }
+            app = new AppManager();
         }
 
         [TearDown]
-        public void TearDown()
+        public void TeardownTest()
         {
-            driver?.Quit();
-            driver = null;
-        }
-
-        protected void Wait(int milliseconds)
-        {
-            System.Threading.Thread.Sleep(milliseconds);
+            app.Stop();
         }
     }
 }
