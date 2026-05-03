@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPhoneData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhoneData>
+    <PhoneNumber>9657016427</PhoneNumber>
+    <Name>Елена Попова</Name>
+    <Email>елена.попова774@inbox.ru</Email>
+  </PhoneData>
+  <PhoneData>
+    <PhoneNumber>9657669225</PhoneNumber>
+    <Name>Юлия Петрова</Name>
+    <Email>юлия.петрова858@gmail.com</Email>
+  </PhoneData>
+  <PhoneData>
+    <PhoneNumber>9653542715</PhoneNumber>
+    <Name>Ирина Сидорова</Name>
+    <Email>ирина.сидорова475@yandex.ru</Email>
+  </PhoneData>
+</ArrayOfPhoneData>

@@ -1,0 +1,14 @@
+D:\ITIS\3_COURSE\УПРАВЛЕНИЕ ПО\KariTestDataGenerator\bin\Release\net10.0\KariTestDataGenerator.exe
+D:\ITIS\3_COURSE\УПРАВЛЕНИЕ ПО\KariTestDataGenerator\bin\Release\net10.0\KariTestDataGenerator.deps.json
+D:\ITIS\3_COURSE\УПРАВЛЕНИЕ ПО\KariTestDataGenerator\bin\Release\net10.0\KariTestDataGenerator.runtimeconfig.json
+D:\ITIS\3_COURSE\УПРАВЛЕНИЕ ПО\KariTestDataGenerator\bin\Release\net10.0\KariTestDataGenerator.dll
+D:\ITIS\3_COURSE\УПРАВЛЕНИЕ ПО\KariTestDataGenerator\bin\Release\net10.0\KariTestDataGenerator.pdb
+D:\ITIS\3_COURSE\УПРАВЛЕНИЕ ПО\KariTestDataGenerator\obj\Release\net10.0\KariTestDataGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITIS\3_COURSE\УПРАВЛЕНИЕ ПО\KariTestDataGenerator\obj\Release\net10.0\KariTestDataGenerator.AssemblyInfoInputs.cache
+D:\ITIS\3_COURSE\УПРАВЛЕНИЕ ПО\KariTestDataGenerator\obj\Release\net10.0\KariTestDataGenerator.AssemblyInfo.cs
+D:\ITIS\3_COURSE\УПРАВЛЕНИЕ ПО\KariTestDataGenerator\obj\Release\net10.0\KariTestDataGenerator.csproj.CoreCompileInputs.cache
+D:\ITIS\3_COURSE\УПРАВЛЕНИЕ ПО\KariTestDataGenerator\obj\Release\net10.0\KariTestDataGenerator.dll
+D:\ITIS\3_COURSE\УПРАВЛЕНИЕ ПО\KariTestDataGenerator\obj\Release\net10.0\refint\KariTestDataGenerator.dll
+D:\ITIS\3_COURSE\УПРАВЛЕНИЕ ПО\KariTestDataGenerator\obj\Release\net10.0\KariTestDataGenerator.pdb
+D:\ITIS\3_COURSE\УПРАВЛЕНИЕ ПО\KariTestDataGenerator\obj\Release\net10.0\KariTestDataGenerator.genruntimeconfig.cache
+D:\ITIS\3_COURSE\УПРАВЛЕНИЕ ПО\KariTestDataGenerator\obj\Release\net10.0\ref\KariTestDataGenerator.dll

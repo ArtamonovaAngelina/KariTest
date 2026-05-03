@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "nv9lCZ4EgmI=",
+  "success": true,
+  "projectFilePath": "D:\\ITIS\\3_COURSE\\УПРАВЛЕНИЕ ПО\\KariTestDataGenerator\\KariTestDataGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Angelina\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference System.Xml.XmlSerializer не будет урезано. Рассмотрите возможность удаления этого пакета из зависимостей, так как он, вероятно, не требуется.",
+      "projectPath": "D:\\ITIS\\3_COURSE\\УПРАВЛЕНИЕ ПО\\KariTestDataGenerator\\KariTestDataGenerator.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\ITIS\\3_COURSE\\УПРАВЛЕНИЕ ПО\\KariTestDataGenerator\\KariTestDataGenerator.csproj",
+      "libraryId": "System.Xml.XmlSerializer",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
