@@ -11,6 +11,6 @@ namespace KariTests.Tests
         public void SetupTest()
         {
             app = AppManager.GetInstance();
-        }
+            app.Navigation.OpenHomePage();
     }
 }

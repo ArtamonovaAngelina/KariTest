@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KariTestDataGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+014a980f43ca0fee1399fdf399c636da03f86dc0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27d13cd02fb2c0f85f72f10abe62940532f305ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("KariTestDataGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KariTestDataGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

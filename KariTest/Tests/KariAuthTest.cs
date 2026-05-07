@@ -9,7 +9,7 @@ using System.Xml.Serialization;
 namespace KariTests.Tests
 {
     [TestFixture]
-    public class KariAuthTest : TestBase
+    public class KariAuthTest : AuthBase
     {
         [Test]
         public void AuthorizationTestFromXml()

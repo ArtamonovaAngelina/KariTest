@@ -8,6 +8,43 @@ namespace KariTests.Helpers
     {
         public LoginHelper(AppManager manager) : base(manager) { }
 
+        public bool IsLoggedIn()
+        {
+            try
+            {
+                driver.FindElement(By.CssSelector(".user"));
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public bool IsLoggedIn(string username)
+        {
+            try
+            {
+                var userElement = driver.FindElement(By.CssSelector(".user-name"));
+                return userElement.Text.Contains(username);
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public void Logout()
+        {
+            try
+            {
+                driver.FindElement(By.CssSelector(".user")).Click();
+                driver.FindElement(By.LinkText("Выйти")).Click();
+                Wait(500);
+            }
+            catch { }
+        }
+
         public void SelectPhoneLogin()
         {
             try
@@ -37,25 +74,20 @@ namespace KariTests.Helpers
             ((IJavaScriptExecutor)driver).ExecuteScript("arguments[0].click();", submitBtn);
         }
 
-        public void Login(PhoneData phone)
+        public void Login(PhoneData user)
         {
+            if (IsLoggedIn())
+            {
+                if (IsLoggedIn(user.PhoneNumber))
+                {
+                    return; 
+                }
+                Logout();
+            }
+            
             SelectPhoneLogin();
-            EnterPhoneNumber(phone);
+            EnterPhoneNumber(user);
             SubmitPhoneNumber();
-        }
-
-        public bool IsLoggedIn()
-        {
-            Wait(2000);
-            try
-            {
-                var profileIcon = driver.FindElement(By.CssSelector(".user"));
-                return profileIcon.Displayed;
-            }
-            catch
-            {
-                return false;
-            }
         }
     }
 }
